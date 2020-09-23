@@ -1,0 +1,5 @@
+<resources>
+    <string name="enter_phone_number">enter_phone_number</string>
+    <string name="enter_password">enter_password</string>
+    <string name="remember_me">Remember me</string>
+</resources>

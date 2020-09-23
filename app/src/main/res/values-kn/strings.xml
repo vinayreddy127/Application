@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="enter_phone_number">ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enter_password">ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ</string>
+    <string name="remember_me">ನನ್ನನ್ನು ನೆನಪಿನಲ್ಲಿಡು</string>
+</resources>
