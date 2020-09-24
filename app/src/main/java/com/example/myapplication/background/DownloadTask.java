@@ -5,11 +5,16 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 
+import com.example.myapplication.AsyncActivity;
+
 public class DownloadTask extends AsyncTask<String,Integer,Void> { //inputtype, progresstype, resulttype
     ProgressBar mProgressBar;
     public static String TAG = DownloadTask.class.getSimpleName();
-    public DownloadTask(ProgressBar progressBar) {
+    public DownloadTask(ProgressBar progressBar, AsyncActivity asyncActivity) {
         mProgressBar = progressBar;
+    }
+
+    public DownloadTask(ProgressBar progressBar, com.example.myapplication.background.AsyncActivity asyncActivity) {
     }
 
 
